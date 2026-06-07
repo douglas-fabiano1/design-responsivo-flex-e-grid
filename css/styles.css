@@ -25,13 +25,12 @@ h2 {
 
 .container {
     width: 600px;
-    min-height: 400px;
     margin: 1.875rem auto;
     padding: 10px 0;
     border: 1px solid var(--color-blue-400);
     border-radius: var(--radius);
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .box {
