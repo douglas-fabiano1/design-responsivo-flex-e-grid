@@ -43,9 +43,17 @@ h2 {
 }
 
 .box-1 {
-    flex-grow: 2;
+    flex-basis: 190px;
+}
+
+.box-2 {
+    flex-grow: 1;
 }
 
 .box-3 {
+    flex-basis: 100px;
+}
+
+.box-4 {
     flex-grow: 2;
 }
