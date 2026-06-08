@@ -25,13 +25,11 @@ h2 {
 
 .container {
     width: 600px;
-    min-height: 400px;
     margin: 1.875rem auto;
     padding: 10px 0;
     border: 1px solid var(--color-blue-400);
     border-radius: var(--radius);
     display: flex;
-    align-items: center;
 }
 
 .box {
@@ -42,4 +40,12 @@ h2 {
     margin: 5px;
     padding: 0 5px;
     font-size: 1.5rem;
+}
+
+.box-1 {
+    flex-grow: 2;
+}
+
+.box-3 {
+    flex-grow: 2;
 }
