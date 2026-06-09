@@ -32,6 +32,8 @@ h2 {
     padding: 10px 20px;
     border-radius: var(--radius);
     display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 100px 100px;
 }
 
 .box {
