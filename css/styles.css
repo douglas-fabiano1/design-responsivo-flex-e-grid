@@ -29,10 +29,9 @@ h2 {
 .container {
     width: 90%;
     margin: 0 auto 0;
-    padding: 10px 20px;
+    padding: 0 20px;
     border-radius: var(--radius);
     display: grid;
-    grid-template-columns: repeat(2, minmax(50px, 80px)) 1fr 1fr;
 }
 
 .box {
@@ -60,4 +59,16 @@ h2 {
 
 .box-4 {
     background: var(--color-blue-600);
+}
+
+h3 {
+    margin: 30px 65px 0;
+}
+
+.auto-fit {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.auto-fill {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
 }
